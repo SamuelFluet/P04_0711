@@ -1076,6 +1076,6 @@ h4 {
 p{
     font-size: larger;
 }
-.site-navigation, nav, navbar-nav{
+.site-navigation{
     display: none;
 }
