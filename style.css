@@ -1045,11 +1045,29 @@ h4 {
     .social{
         display: flex;
     }
+    .collapse{
+        display: none;
+    }
+    .ui-navbar-toggle{
+        display: none;
+    }
+    .navbar-nav{
+        display: none;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .site-navigation{
+        display: none;
+    }
+    .nav-toggle{
+        display: none;
+    }
+    nav{
+        display: none;
     }
 }
 .parlons{
@@ -1057,4 +1075,7 @@ h4 {
 }
 p{
     font-size: larger;
+}
+.site-navigation, nav, navbar-nav{
+    display: none;
 }
