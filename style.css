@@ -1076,3 +1076,8 @@ p{
 .site-navigation{
     display: none;
 }
+.img-responsive{
+    width:395px;
+    height:395px;
+    object-fit: cover;
+}
